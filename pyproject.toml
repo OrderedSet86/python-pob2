@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "lupa>=2.4",
+    "types-lupa>=2.4.0.20250112",
 ]

@@ -77,7 +77,20 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "lupa" },
+    { name = "types-lupa" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "lupa", specifier = ">=2.4" }]
+requires-dist = [
+    { name = "lupa", specifier = ">=2.4" },
+    { name = "types-lupa", specifier = ">=2.4.0.20250112" },
+]
+
+[[package]]
+name = "types-lupa"
+version = "2.4.0.20250112"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/20/a9/769be0c0c53526270241f051bd193789bbb9ba4ca1447212f5a90c81ff9a/types_lupa-2.4.0.20250112.tar.gz", hash = "sha256:54fcc3e06c95135f2dd76ee907dac3df84efecca2fc6c1aaf96dea288e3e06ad", size = 9138 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/7e/24590308d87979a2f338a9a58acb994e9a5ab32f4a2840f9e54a6fcb07e6/types_lupa-2.4.0.20250112-py3-none-any.whl", hash = "sha256:8a22fc31e2b2aacc993c5f2e1607b2f56fdc1c2123a0449101fa3755abddc577", size = 14302 },
+]
